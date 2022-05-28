@@ -1,0 +1,50 @@
+.container-1 div,
+.container-2 div,
+.container-3 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (min-width: 500px) {
+    /* Flexbox CSS here */
+
+    /* Container 1 */
+    .container-1 {
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        /* flex-direction: column; */
+    }
+    /* Mess up with the order & size */
+    .box-1 {
+        order: 2;
+        flex: 2;
+        background-color: lightblue;
+        text-align: center;
+    }
+    .box-2 {
+        order: 1;
+        flex: 1;
+        background-color: lightcyan;
+        text-align: center;
+    }
+    .box-3 {
+        order: 3;
+        flex: 1;
+        background-color: lightcyan;
+        text-align: center;
+    }
+
+    /* Container 2 */
+    .container-2 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

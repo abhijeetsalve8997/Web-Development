@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+    border: 1px #bbb solid;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
